@@ -1,0 +1,428 @@
+@charset "UTF-8";
+@import url("reset.css");
+@import url("font.css");
+
+body { font-family: "Work Sans", sans-serif;
+    
+}
+
+
+
+.header {}
+.header .centerbox {width: 1920px;  margin: 0 auto; background: #423627;
+     display: flex; justify-content: space-between; height: 60px; align-items: center;}
+.header .logo {width: 200px; margin-left: 10px;}
+.header .nav {width: 700px; }
+.header .nav .gnb {display: flex; justify-content: space-around; }
+.header .nav .gnb > li {display: flex;color: #000; position: relative ;  font-size: 20px;}
+.header .nav .gnb > li > a { padding: 10px 50px; display: block; color: #fff;}
+
+
+.header .nav .gnb li .lnb {position: absolute; width:100%;height: 0px; background: #E1BFBD;
+left: 0; top: 100%; overflow: hidden;}
+.header .nav .gnb > li:hover .lnb {height: 200px; transition: 0.3s;}
+
+.header .nav .gnb li .lnb li {font-size: 15px;}
+.header .nav .gnb li .lnb li a {color: #fff; display: block; text-align: center; line-height: 50px;}
+.header .nav .gnb li:hover {background: #000;}
+.header .nav .gnb li:hover a {color: #E1BFBD;}
+
+.header .loginbox {width: 160px; display: flex; align-items: center; justify-content: space-around; align-items: center;}
+.header .loginbox a {color: #fff;}
+
+.visual {width: 1920px; margin: 0 auto;} 
+
+
+.sectionbox { margin: 0 auto;  margin-top: 26px;}
+.section_menu {width: 1338px; display: flex; text-align: center; line-height: 50px; }
+.section_menu li.left {width: 669px; background: #6C5E52}
+.section_menu li a { text-align: center ;}
+.section_menu li.left a {color: #fff; display: block; font-size: 30px;}
+.section_menu li.right {width: 669px; background: #fff;}
+.section_menu li.right a {display: block; font-size: 30px;} 
+
+.photobox {display: flex; width: 1338px; margin-top: 26px;}
+.photobox .p1 {width: 426px; height: 426px; background: lavender; margin-left: 4px;}
+.photobox .p2 {width: 426px; height: 426px; background: lavenderblush; margin: 0 26px;}
+.photobox .p3 {width: 426px; height: 426px; background: lawngreen}
+.photobox h5 {margin-top: 15px; font-size: 20px;}
+.photobox p {margin-top: 5px;}
+
+.noticebox {margin-top: 200px; font-size: 25px;}
+.noticebox li {line-height: 70px; font-size: 20px;}
+
+.noticebox p.big {text-align: center; margin-bottom: 22px; font-size: 50px;}
+.noticebox p {text-align: center;margin-bottom: 95px;}
+
+.content_box {}
+.content_box ul {}
+.content_box ul li {display: flex; border-bottom: 1px solid #000; }
+
+.content_box ul li .number {width: 100px; text-align: center; }
+.content_box ul li .cont { flex-grow: 1;}
+.content_box ul li .date {width: 150px; text-align: center; }
+.content_box ul li .cont_1 {text-align: center;}
+
+.map_box {width: 1338px;margin: 0 auto; margin-top: 220px;}
+.map_box h2 {text-align: center;} 
+.map_box h3 {text-align: center; margin-top: 20px;}
+.map_box .map {height: 758px; margin-top: 95px; } 
+
+.map_text {margin-top: 50px; display: flex; padding-bottom: 160px; }
+.map_text .text_box1 {width: 668px;}
+.map_text .text_box2 {width: 668px;  }
+.map_text li.title {font-size: 32px; margin-bottom: 30px;} 
+.map_text li.detail {margin-bottom: 5px;}
+.map_text li.detail_2 {margin-bottom: 50px;}
+.map_text li.detail_3 {margin-bottom: 37px;}
+.map_text li.title_2 {margin-bottom: 10px; padding-bottom: 5px;}
+
+
+
+
+
+/* .noticebox .n1 { border: 1px solid #000; }
+.noticebox .n1 ul {display: flex; justify-content: space-between;}
+.noticebox .n1 ul li {border: 1px solid red;}
+
+.noticebox .n2 { border: 1px solid #000; }
+.noticebox .n2 ul {display: flex; justify-content: space-between;}
+.noticebox .n2 ul li {border: 1px solid red;}
+
+.noticebox .n3 { border: 1px solid #000; }
+.noticebox .n3 ul {display: flex; justify-content: space-between;}
+.noticebox .n3 ul li {border: 1px solid red;}
+
+.noticebox .n4 { border: 1px solid #000; }
+.noticebox .n4 ul {display: flex; justify-content: space-between;}
+.noticebox .n4 ul li {border: 1px solid red;}
+
+.noticebox .n5 { border: 1px solid #000; }
+.noticebox .n5 ul {display: flex; justify-content: space-between;}
+.noticebox .n5 ul li {border: 1px solid red;} */
+
+
+.footer {width: 1920px; height: 250px; background: #46351B; margin: 0 auto; 
+      display:flex; justify-content: flex-start; align-items: center;}
+.footerlogo {width: 200px; height: 90px; margin-left: 30px; margin-top: 20px;}
+
+.footerbox {width: 1338px; display: flex; justify-content:space-between; margin-left: 80px; }
+.footerbox li {color: #fff; }
+
+.footerbox .footerbox_1 {}
+.footerbox li.footer_title { font-size: 25px; margin-bottom: 50px;}
+.footerbox li {margin-bottom: 12px;}
+
+
+
+
+/*예약주문 서브페이지 */
+
+.visual_sub {height: 380px; width: 1920px; margin: 0 auto;} 
+.visual_sub img {height: 100%; width: 100%;}
+.centerbox {margin: 0 auto; width: 1338px;}
+.section1 {}
+.section1 .ready { display: flex; justify-content: space-between;}
+.section1 .ready .text {display: flex; flex-direction: column; justify-content: space-between;} 
+.section1 .ready .text p { font-size: 20px; }
+.section1 .ready .text p.fir {line-height: 80px; font-size: 32px; }
+.section1 .ready .text .line {width: 118px; height: 1px; background: #000;}
+.section1 .ready .text p.sec {font-size: 27px; flex-grow: 1; margin-top: 10px;}
+.section1 .ready .text p.thi {line-height: 35px;}
+.section1 .ready .photo {width: 507px; height: 432px;}
+
+.section2 {margin-top: 326px; background: url(/images/Group\ 60.png); background-repeat: no-repeat; width: 100%; margin: 0 auto;
+background-position: center 0;} 
+.section2 .product {text-align: center; padding-top: 110px; padding-bottom: 192px; font-size: 40px; margin-top: 430px;} 
+.section2 .itemlist {}
+.section2 .itemlist .photobox_sub {display: flex; justify-content: space-between;}
+.section2 .itemlist_2 { margin-top: 256px;}
+.section2 .itemlist_2 .photobox_sub {display: flex; justify-content: space-between;}
+.section2 .go {text-align: center; font-size: 27px; padding-top: 197px; padding-bottom: 83px;}
+
+
+.title_text {text-align: center;}
+.title_text .big {font-size: 40px;margin-bottom: 100px; margin-top: 260px;}
+.title_text p {font-size: 27px; margin-bottom: 280px;}
+.section3 .centerbox {}
+.section3 .reser {}
+.section3 .reser .reser1 { display:flex; gap: 30px; }
+.section3 .reser .reser1 img {width: 638px; height: 421px;}
+.reser .text {display: flex; flex-direction: column; justify-content: space-between;
+flex-grow: 1;} 
+.reser .text p { font-size: 20px; }
+.reser .text p.fir { font-size: 32px; }
+.reser .text .line {width: 118px; height: 1px; background: #EABAAE ;margin-top: 46px; margin-bottom: 62px;}
+.reser .text p.sec {font-size: 27px; flex-grow: 1; margin-top: px;}
+.reser .text p.thi {line-height: 35px;}
+
+.section3 {  background: url(/images/Group\ 60.png); background-repeat: no-repeat; background-position: center 0; 
+padding-top:165px; padding-bottom: 250px;}
+.section3 .reser2 {display: flex; gap: 30px; margin-top: 30px; }
+.section3 .reser2 .photo {width: 639px; height: 630px; }
+.section3 .reser2 .photo2 {width: 648px; height: 630px; display: flex; flex-direction: column; }
+.section3 .reser2 .photo2 .icon { display: flex; align-items: center;justify-content: center; flex-grow: 1;}
+.section3 .reser2 .photo2 .icon a {background: #EABAAE; padding: 3px 30px;}
+.section3 .reser2 .photo2 p {}
+.section3 .reser2 .photo2 p img {}
+
+
+
+/* 브랜드스토리 */
+
+.visual_sub {height: 380px; width: 1920px; margin: 0 auto;} 
+.visual_sub img {height: 100%; width: 100%;}
+.section1 {background: url(/images/브랜드스토리bg.png); background-repeat: no-repeat; background-position: center 0;
+padding: 130px 0;}
+.section1 .content {width: 1339px; margin: 0 auto;}
+.section1 .content .text {text-align: center; font-size: 22px;}
+.section1 .content .text .fi {}
+.section1 .content .text .se {margin-top: 77px;}
+.section1 .photobox {display: flex; gap: 30px; margin-top: 220px;}
+.section1 .photobox li {height: 440px; width: 440px; }
+
+.section2_sub {}
+.section2_sub .content {width: 1200px; margin: 0 auto; display: flex;  justify-content: space-between;
+padding: 240px 0 240px; margin-top: 190px 0  }
+.section2_sub .left {text-align: center; display: flex; flex-direction: column;}
+.section2_sub .left .text {}
+.section2_sub .left li.fi {font-size: 27px;}
+.section2_sub .left li.sc {padding-top: 66px; padding-bottom: 87px; line-height: 35px; font-size: 20px;}
+.section2_sub .btn_more { flex-grow: 1; justify-content: center; align-items: center; display: flex;}
+.section2_sub .btn_more a {background:#EBB5A6; padding: 0 15px; color: #fff;}
+.section2_sub .right {width: 576px; height: 385px; }
+
+.footer {}
+
+
+
+/* 상품 서브페이지 */
+
+.content {width: 1338px; margin: 0 auto; margin-top: 200px;} 
+.content .menu {display: flex; gap: 15px; align-items: center;}
+.content .menu li {font-size: 28px;}
+
+.line {width: 100%; height: 1px; background: #48413A; margin-top: 16px;} 
+
+.content2 {width: 1338px; margin: 0 auto;}
+.content2 .menu2 {display: flex; justify-content: space-between;align-items: center; line-height: 40px;  padding: 5px 0 5px;
+}
+.content2 .menu2 .left {display: flex; gap: 20px; }  
+.content2 .menu2 .left li {}  
+.content2 .line2 {width: 100%; ; height: 1px; background: #000;}
+.content2 .menu2 .right {}  
+.content2 .menu2 .right a {background: #48413A; color: #fff; padding: 8px 20px; border-radius: 30px; }  
+
+.section1_sub {}
+.section1_sub .content3 {width: 1338px; margin: 0 auto; margin-top: 170px;}
+.section1_sub .content3 .menu {}
+.section1_sub .content3 .menu p {text-align: center; font-size: 32px;}
+.section1_sub .content3 .list {display: flex; gap: 32px; justify-content: center; margin-top: 22px;}
+.section1_sub .content3 .list li.all {background:#48413A; padding: 5px 20px; border-radius: 25px;}
+.section1_sub .content3 .list li.all a {color: #fff;}
+.section1_sub .content3 .list li {background:#FDF3E3; padding: 5px 13px; border-radius: 25px;}
+.section1_sub .content3 .list li a {}
+
+
+
+.section1_sub .itemlist {margin-top: 66px;}
+.section1_sub .itemlist .photobox_sub {display: flex; gap: 20px;}
+.section1_sub .itemlist .photobox_sub h5 {margin-top: 10px;}
+.section1_sub .itemlist .photobox_sub2 {display: flex; gap: 20px; margin-top: 260px;}
+.section1_sub .itemlist .photobox_sub2 h5 {margin-top: 10px;}
+
+.section1_sub .btn_more { display: flex; justify-content: center; margin-top: 140px;}
+.section1_sub .btn_more a {border: 1px solid #908982; display: flex; gap: 30px; padding: 20px 20px;}
+
+.section1_sub .title {text-align: center; margin-top: 315px;}
+.section1_sub .title .fi {font-size: 48px;}
+.section1_sub .title .sc {font-size: 32px; margin-top: 12px;}
+
+.number_sub {position: absolute; border: 1px solid #000; }
+.number_sub ul {display: flex; gap: 10px;}
+.number_sub ul li {}
+
+.section2_sub2 {background:url(/images/배.png); background-repeat: no-repeat;  background-position: center 0;
+padding-top: 120px; padding-bottom: 120px; margin-top: 140px;}
+.content4 { width: 1338px; margin: 0 auto; position: relative;}
+.section2_sub2 .content4 {display: flex; gap: 145px;}
+.section2_sub2 .content4 .cardbox {width: 349px; background: #fff;}
+.section2_sub2 .content4 .cardbox a {height: 332px; width: 100%;  display: block;}
+.section2_sub2 .content4 .cardbox .text { width: 310px; height: 134px;margin-left: 15px; margin-top: 10px;}
+.section2_sub2 .content4 .cardbox .text li {color: #423627;}
+.section2_sub2 .content4 .cardbox .text .top .big {font-size: 20px;}
+.section2_sub2 .content4 .cardbox .text .line2 {height: 1px; background: #C6C0BD; margin: 10px 0 12px; }
+.section2_sub2 .content4 .cardbox .text .bo {}
+.section2_sub2 .content4 .cardbox .text .bo .go {background: #45392D; display: inline-block; color: #fff;
+padding: 0 8px;border-radius: 40px;margin-bottom: 5px;} 
+.section2_sub2 .content4 .cardbox .text .bo .price {margin-top: 7px;}
+
+.section2_sub2 .content4 .btn_box {height:1px; width: 100%;; position: absolute; display: flex; 
+align-items: center; position: absolute; top: 50%;}
+.section2_sub2 .content4 .btn_box .le {width: 40px; height: 40px; border: 1px solid #B6B1AB; display: block;
+position: absolute; left: -20px; border-radius: 50%; position: relative; background: #FEFBF8;}
+.section2_sub2 .content4 .btn_box .le img {position: absolute; left: 13px; top: 13px;}
+.section2_sub2 .content4 .btn_box .ri {width: 40px; height: 40px; border: 1px solid #B6B1AB; display: block;
+position: absolute; right: -20px; border-radius: 50%; background: #FEFBF8;}
+.section2_sub2 .content4 .btn_box .ri img {position: absolute; right: 13px; top: 13px; }
+
+.content5 {width: 1338px; margin: 0 auto; }
+
+.section2_sub2 .content5 .menu {margin-top: 500px; margin-bottom: 60px;}
+.section2_sub2 .content5 .menu p {text-align: center; font-size: 32px;}
+.section2_sub2 .content5 .list {display: flex; gap: 32px; justify-content: center; margin-top: 22px;}
+.section2_sub2 .content5 .list li.all {background:#48413A; padding: 5px 20px; border-radius: 25px;}
+.section2_sub2 .content5 .list li.all a {color: #fff;}
+.section2_sub2 .content5 .list li {background:#FDF3E3; padding: 5px 13px; border-radius: 25px;}
+
+.section2_sub2 .content5 .itemlist {}
+.section2_sub2 .content5 .itemlist .photobox_sub {display: flex; gap: 22px;}
+.section2_sub2 .content5 .itemlist .photobox_sub h5 {margin-top: 10px;}
+.section2_sub2 .content5 .itemlist .photobox_sub2 {display: flex; gap: 22px; margin-top: 250px;}
+.section2_sub2 .content5 .itemlist .photobox_sub2 h5 {margin-top: 10px;}
+.section2_sub2 .content5 .btn_more { display: flex; justify-content: center; margin-top: 140px;}
+.section2_sub2 .content5 .btn_more a {border: 1px solid #908982; display: flex; gap: 30px; padding: 20px 20px;}
+
+.section3_sub {background: url(/images/컬러\ 배경.png); background-position: center; background-repeat: no-repeat;
+padding: 140px 0 140px;}
+
+.section3_sub .content6 {width: 1338px; margin: 0 auto;}
+.section3_sub .content6 .top { display: flex; justify-content: space-between;}
+.section3_sub .content6 .line3 {width:1px; height: 530px; background: #000;}
+.section3_sub .content6 .top .text {}
+.section3_sub .content6 .top .text .fi {font-size: 44px;}
+.section3_sub .content6 .text .se {font-size: 28px; margin: 90px 0 90px;}
+.section3_sub .content6 .text .th {font-size: 20px; line-height: 40px}
+.section3_sub .content6 .photo { }
+
+.section3_sub .content6 .bottom {display: flex; justify-content: space-between; margin-top: 120px;}
+.section3_sub .content6 .bottom .photo {}
+.section3_sub .content6 .bottom .text {}
+.section3_sub .content6 .bottom .text .fi {font-size: 28px; margin-top: 146px;}
+.section3_sub .content6 .bottom .text .se {font-size: 18px; line-height: 40px;}
+.section3_sub .content6 .bottom .text .bt {display: flex; justify-content: center; align-items: center;} 
+.section3_sub .content6 .bottom .text .bt a {background: #716458; display: inline;
+color: #fff; padding: 5px 10px; border-radius: 20px;}
+
+.footer {width: 1920px; height: 250px; background: #46351B; margin: 0 auto; 
+      display:flex; justify-content: flex-start; align-items: center;}
+.footerlogo {width: 200px; height: 90px; margin-left: 30px; margin-top: 20px;}
+
+.footerbox {width: 1338px; display: flex; justify-content:space-between; margin-left: 80px; }
+.footerbox li {color: #fff; }
+
+.footerbox .footerbox_1 {}
+.footerbox li.footer_title { font-size: 25px; margin-bottom: 50px;}
+.footerbox li {margin-bottom: 12px;}
+
+
+
+/* 로그인페이지 */
+.login {font-size: 40px; text-align: center; margin-top: 250px;}
+.log_menu { display: flex; justify-content: center; margin-top: 70px;} 
+.log_menu ul {width: 220px; }
+.log_menu ul.le {border-bottom: 2px solid #48413A;}
+.log_menu ul.ri {border-bottom: 1px solid #b3b3b3;}
+.log_menu li { text-align: center; font-size: 28px; padding: 5px 0 10px;}
+
+.login_box {width: 559px; height: 617px; border: 1px solid #000; margin: 0 auto; margin-top: 30px;border-radius: 30px;
+ margin-bottom: 300px;}
+.login_box .box {}
+.login_box .text {display: flex; flex-direction: column; align-items: center;}
+.login_box .box .text li {border: 1px solid red; width: 375px; height: 75px; 
+display: flex; align-items: center; padding-left: 10px; border-radius: 40px; margin-top: 60px;}
+.login_box .box .text li.password {margin-top: 10px;}
+.login_box .box .checkbox {display: flex; gap: 20px; margin-top: 20px;  padding-left: 90px;}
+.login_box .box .checkbox ul {display: flex; align-items: center;
+gap: 8px;}
+.login_box .box .checkbox .check {width: 10px; height: 10px; border: 1px solid #000;}
+
+.login_box .box2 {}
+.login_box .text {display: flex; flex-direction: column;}
+.login_box .box2 .text li {width: 375px; height: 75px; border: 1px solid #000;}
+.login_box .box2 .text li.go {background: #48413A; 
+display: flex; align-items: center; padding-left: 10px; border-radius: 40px; margin-top: 20px; justify-content: center;
+}
+.login_box .box2 .text li.go a {color: #fff; border: 1px solid red; padding: 20px;}
+.login_box .box2 .text li.password {margin-top: 10px; display: flex; justify-content: center;}
+.login_box .box2 .text li.password a {display: block; border: 1px solid red;padding: 20px;}
+.login_box .box2 .checkbox {display: flex; gap: 20px; margin-top: 20px; padding-left: 90px;}
+.login_box .box2 .checkbox ul {display: flex; align-items: center;
+gap: 8px;}
+.login_box .box2 .checkbox .check {width: 10px; height: 10px; border: 1px solid #000;}
+
+
+/* 플라워 클래스   */
+
+.fc {text-align: center; padding: 150px 0 150px; font-size: 32px;}
+.photobox {display: flex; gap: 30px;}
+.photobox ul {}
+.photobox ul .img {width: 427px; height: 395px;  }
+.photobox ul .text {display: flex; flex-direction: column; align-items: center;gap: 10px; margin-top: 20px;
+margin-bottom: 550px;}
+.photobox ul .text .title {}
+.photobox ul .text .price {}
+.photobox ul .text .icon {border: 1px solid #000; padding: 0 10px;}
+.photobox ul .text .iconred {border: 1px solid #000; padding: 0 10px; color: red;} 
+
+
+
+/* 회원가입 서브페이지 */
+
+.contentbox {width: 1338px; margin: 0 auto; position: relative;}
+.contentbox p {color: #4D4134;}
+.contentbox p.big {font-size: 40px; margin-bottom: 40px; margin-top: 300px;}
+.contentbox p.small {font-size: 24px; margin-bottom: 40px;}
+
+.signupimg {position: absolute; right: 0; bottom: 80px; }
+.signup_box {width: 530px;}
+.signup_box .tab {display: flex; justify-content: space-between; text-align: center; line-height: 41px;} 
+.signup_box .tab li {width: 235px; border: 1px solid #9B9188; border-radius: 5px;}
+
+.text_box {color: #C4BCB4;}
+.text_box .name {border-bottom: 1px solid #c4bcb4; display: flex; justify-content: space-between; margin-top: 30px;
+color: #9B9188;line-height: 60px;}
+.text_box .name .name1 {}
+.text_box .name li {display: flex; align-items: center;}
+.text_box .name li.number{flex-grow: 1; margin-left: 260px;}
+.text_box .name li.number ul .star { padding-top: 6px;}
+.text_box .name li.number ul .circle {width: 8px; height: 8px; background: #9B9188; border-radius: 50%;}
+.text_box .name li.number ul {display: flex; align-items: center; display: flex; gap: 5px;}
+.text_box .name li.number ul li {}
+.text_box .identity {line-height: 60px; color: #9B9188; border-bottom: 1px solid #9B9188; margin-bottom: 30px;}
+
+.tabbox2 {display: flex; flex-wrap: wrap; gap: 15px;}
+.tabbox2 ul {border: 1px solid #9B9188; width: 164px; height: 41px; border-radius: 5px;}
+.tabbox2 ul li {display: flex; justify-content: center; align-items: center; line-height: 41px;}
+
+.agree { margin: 50px 0 50px; background: #F3F0EC; border-radius: 10px; padding: 8px 0 8px;}
+.agree ul {display: flex; padding: 5px 0 5px; margin-left: 20px; gap: 13px; color: #48413A;}
+.agree .big {font-size: 18px; padding: 5px 0 5px; margin-bottom: 5px;}
+.agree ul li.v {}
+.agree ul li {}
+
+.phonenum {}
+.phonenum ul {display: flex; align-items: center; padding: 5px 0 5px; border-bottom: 1px solid #423627;}
+.phonenum li.num {flex-grow: 1; color: #9B9188; font-size: 22px;}
+.phonenum li.ask {background: #F3F0EC; border-radius: 5px; padding: 3px 8px; margin-left: 5px;}
+.phonenum li.ask a {color: #C4BCB4 ; }
+.phonenum ul li {}
+
+.tab3 {display: flex; justify-content: center; margin-top: 50px;}
+.tab3 a {color: #9B9188; padding: 20px 100px; background: #F3F0EC;}
+
+
+
+/* 게시판 서브페이지 */
+.contentbox {}
+
+.title {text-align: center;}
+.title .big {font-size: 30px;}
+.title p {font-size: 22px; line-height: 30px;}
+
+.menubar {margin-top: 190px; font-size: 28px;}
+.menubar ul { display: flex; justify-content: center;}
+.menubar ul li { width: 377px; text-align: center;} 
+.menubar ul .notice {border-bottom: 1px solid #423627;}
+.menubar ul .notice .icon {text-align: center;}
+.menubar .barline {width: 100%; height: 1px; background: #000;}
